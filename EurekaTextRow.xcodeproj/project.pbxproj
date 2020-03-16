@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,10 @@
 		0E778996241F749A000190FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E778995241F749A000190FF /* Assets.xcassets */; };
 		0E778999241F749A000190FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E778997241F749A000190FF /* LaunchScreen.storyboard */; };
 		0E7789A4241F749A000190FF /* EurekaTextRowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7789A3241F749A000190FF /* EurekaTextRowTests.swift */; };
+		0E7789B0241F7556000190FF /* CustomTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7789AE241F7555000190FF /* CustomTextCell.swift */; };
+		0E7789B1241F7556000190FF /* CustomTextCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0E7789AF241F7556000190FF /* CustomTextCell.xib */; };
+		D7E2534F2B4BA635D5699A38 /* Pods_EurekaTextRowTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BD200AEAED8C64BC8F5216 /* Pods_EurekaTextRowTests.framework */; };
+		EE2C4F68FBA0296BE72C8DE5 /* Pods_EurekaTextRow.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9AB40EC4C309248408F9839 /* Pods_EurekaTextRow.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,14 @@
 		0E77899F241F749A000190FF /* EurekaTextRowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EurekaTextRowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E7789A3241F749A000190FF /* EurekaTextRowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EurekaTextRowTests.swift; sourceTree = "<group>"; };
 		0E7789A5241F749A000190FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E7789AE241F7555000190FF /* CustomTextCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomTextCell.swift; sourceTree = "<group>"; };
+		0E7789AF241F7556000190FF /* CustomTextCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomTextCell.xib; sourceTree = "<group>"; };
+		29BD200AEAED8C64BC8F5216 /* Pods_EurekaTextRowTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaTextRowTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7734907FB5363B04FFA25671 /* Pods-EurekaTextRow.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaTextRow.debug.xcconfig"; path = "Target Support Files/Pods-EurekaTextRow/Pods-EurekaTextRow.debug.xcconfig"; sourceTree = "<group>"; };
+		8923464AD567202B9BE4CD4B /* Pods-EurekaTextRow.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaTextRow.release.xcconfig"; path = "Target Support Files/Pods-EurekaTextRow/Pods-EurekaTextRow.release.xcconfig"; sourceTree = "<group>"; };
+		8D756460338182A5B5270A00 /* Pods-EurekaTextRowTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaTextRowTests.release.xcconfig"; path = "Target Support Files/Pods-EurekaTextRowTests/Pods-EurekaTextRowTests.release.xcconfig"; sourceTree = "<group>"; };
+		BF0400E03D5A6B9811536A98 /* Pods-EurekaTextRowTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EurekaTextRowTests.debug.xcconfig"; path = "Target Support Files/Pods-EurekaTextRowTests/Pods-EurekaTextRowTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E9AB40EC4C309248408F9839 /* Pods_EurekaTextRow.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EurekaTextRow.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE2C4F68FBA0296BE72C8DE5 /* Pods_EurekaTextRow.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,6 +65,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D7E2534F2B4BA635D5699A38 /* Pods_EurekaTextRowTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +78,8 @@
 				0E77898B241F7494000190FF /* EurekaTextRow */,
 				0E7789A2241F749A000190FF /* EurekaTextRowTests */,
 				0E77898A241F7494000190FF /* Products */,
+				9F83A9463B7C016E43DEF485 /* Pods */,
+				24A7BCA45FAA3BD0D9FC1CA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +97,8 @@
 			children = (
 				0E77898C241F7494000190FF /* AppDelegate.swift */,
 				0E77898E241F7494000190FF /* SceneDelegate.swift */,
+				0E7789AE241F7555000190FF /* CustomTextCell.swift */,
+				0E7789AF241F7556000190FF /* CustomTextCell.xib */,
 				0E778990241F7494000190FF /* ViewController.swift */,
 				0E778992241F7494000190FF /* Main.storyboard */,
 				0E778995241F749A000190FF /* Assets.xcassets */,
@@ -99,6 +117,26 @@
 			path = EurekaTextRowTests;
 			sourceTree = "<group>";
 		};
+		24A7BCA45FAA3BD0D9FC1CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9AB40EC4C309248408F9839 /* Pods_EurekaTextRow.framework */,
+				29BD200AEAED8C64BC8F5216 /* Pods_EurekaTextRowTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9F83A9463B7C016E43DEF485 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7734907FB5363B04FFA25671 /* Pods-EurekaTextRow.debug.xcconfig */,
+				8923464AD567202B9BE4CD4B /* Pods-EurekaTextRow.release.xcconfig */,
+				BF0400E03D5A6B9811536A98 /* Pods-EurekaTextRowTests.debug.xcconfig */,
+				8D756460338182A5B5270A00 /* Pods-EurekaTextRowTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +144,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E7789A8241F749A000190FF /* Build configuration list for PBXNativeTarget "EurekaTextRow" */;
 			buildPhases = (
+				E3D93F2697948525B8F3A5E1 /* [CP] Check Pods Manifest.lock */,
 				0E778985241F7494000190FF /* Sources */,
 				0E778986241F7494000190FF /* Frameworks */,
 				0E778987241F7494000190FF /* Resources */,
+				C119A84056F586A10CC0F173 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +163,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0E7789AB241F749A000190FF /* Build configuration list for PBXNativeTarget "EurekaTextRowTests" */;
 			buildPhases = (
+				269EF51765880E77D38567F5 /* [CP] Check Pods Manifest.lock */,
 				0E77899B241F749A000190FF /* Sources */,
 				0E77899C241F749A000190FF /* Frameworks */,
 				0E77899D241F749A000190FF /* Resources */,
@@ -183,6 +224,7 @@
 				0E778999241F749A000190FF /* LaunchScreen.storyboard in Resources */,
 				0E778996241F749A000190FF /* Assets.xcassets in Resources */,
 				0E778994241F7494000190FF /* Main.storyboard in Resources */,
+				0E7789B1241F7556000190FF /* CustomTextCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +237,70 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		269EF51765880E77D38567F5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaTextRowTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C119A84056F586A10CC0F173 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaTextRow/Pods-EurekaTextRow-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-EurekaTextRow/Pods-EurekaTextRow-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-EurekaTextRow/Pods-EurekaTextRow-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E3D93F2697948525B8F3A5E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-EurekaTextRow-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0E778985241F7494000190FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -203,6 +309,7 @@
 				0E778991241F7494000190FF /* ViewController.swift in Sources */,
 				0E77898D241F7494000190FF /* AppDelegate.swift in Sources */,
 				0E77898F241F7494000190FF /* SceneDelegate.swift in Sources */,
+				0E7789B0241F7556000190FF /* CustomTextCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,10 +467,12 @@
 		};
 		0E7789A9241F749A000190FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7734907FB5363B04FFA25671 /* Pods-EurekaTextRow.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EurekaTextRow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -377,10 +486,12 @@
 		};
 		0E7789AA241F749A000190FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8923464AD567202B9BE4CD4B /* Pods-EurekaTextRow.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = EurekaTextRow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -394,6 +505,7 @@
 		};
 		0E7789AC241F749A000190FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF0400E03D5A6B9811536A98 /* Pods-EurekaTextRowTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -415,6 +527,7 @@
 		};
 		0E7789AD241F749A000190FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D756460338182A5B5270A00 /* Pods-EurekaTextRowTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
